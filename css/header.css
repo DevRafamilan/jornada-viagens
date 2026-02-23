@@ -17,6 +17,14 @@ header {
   margin-top: 24px;
 }
 
+label:hover {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
 }
